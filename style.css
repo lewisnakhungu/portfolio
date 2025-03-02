@@ -1,3 +1,147 @@
+*{
+    margin: 0;
+    padding:0;
+
+}
+.main{
+    width:100%;
+    background:url(./imgs/back.jpg);
+    background-position:center;
+    background-size:cover;
+    position:relatives;
+    font-family:sans-serif;
+    height:100vh;
+
+}
+nav{
+    width:86%;
+    display:flex;
+    margin:auto;
+    padding:15px 0;
+    align-items:center;
+    justify-content: space-between;
+}
+nav div{
+    width:160px;
+    cursor:pointer;
+    margin-top:4%;
+    margin-left:3%;
+    color: rgb(224, 172, 58);
+
+}
+ul{
+    margin-top:4%;
+}
+ul li{
+    list-style: none;
+    display: inline-block;
+    padding:10px 16px;
+}
+ul li a{
+    font-size:16px;
+    font-weight:bold;
+    text-decoration: none;
+    color: rgb(216, 174, 38);
+    margin-top: -3%;
+}
+ul li a:hover{
+    color: chocolate;
+}
+.info{
+    margin-left:7%;
+    margin-top:6%;
+
+}
+.info h1{
+    font-size:65px;
+    color:rgb(182, 152, 71)
+
+}
+.info h3{
+    font-size:18px;
+    letter-spacing:1px;
+    line-height:24px;
+    color: aliceblue;
+}
+.info span{
+    color:rgb(180, 156, 46);
+    font-size:120%;
+    text-transform: uppercase;
+
+}
+.info a{
+    text-decoration: none;
+    color:bisque;
+    background-color:rgb(29, 2, 2);
+    margin:26px 0;
+    padding:10px 18px;
+    border-radius:10px;
+    display:inline-block;
+    transition: .4 ease;
+}
+.info a:hover{
+    background:lightblue;
+}
+.image{
+    align-items: center;
+    display: flex;
+    padding-left: 10px;
+    padding-right:20px;
+    justify-content:space-evenly;
+    border: 20px;
+    font-size: 200%;
+}
+.image a{
+    color: rgb(230, 221, 223);
+    text-decoration: none;
+    background-color:rgb(243, 94, 8);
+    padding: 10px;
+    border-radius: 10px;
+    display: inline-block;
+    transition: .4 ease;
+}
+.image a:hover{
+    background: rgb(197, 179, 12);
+
+}
 body{
-    background: blue;
+    background-color: rgb(228, 143, 15);
+}
+.skills{
+    background-image: url(./imgs/back.jpg);
+    color: antiquewhite;
+    padding-left:120px;
+    height: 100vh;
+    font-size: 250%;
+    font-weight: 200;
+    text-align: center;
+}
+.skills h1{
+    color: rgb(243, 183, 104);
+    padding-top: 0px;
+    margin: 0;
+}
+.skills ol{
+    list-style-type:decimal;
+    color: rgb(229, 248, 248);
+}
+.skills ol li{
+    list-style:none;
+}
+#contact{
+    background-color: rgb(53, 51, 42);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    justify-content: center;
+    height:10vh;
+    color: rgb(233, 145, 145);
+    font-style: italic;
+}
+#contact div{
+    padding-left: 20px;
+    margin: 20px 10px;
+    border-color: chocolate;
+    border-width: 10px;
+
 }
