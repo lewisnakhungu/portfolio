@@ -111,10 +111,11 @@ body{
     background-image: url(./imgs/back.jpg);
     color: antiquewhite;
     padding-left:120px;
-    height: 100vh;
-    font-size: 250%;
+    height: 40vh;
+    font-size: 190%;
     font-weight: 200;
     text-align: center;
+    padding-bottom: 30px;
 }
 .skills h1{
     color: rgb(243, 183, 104);
@@ -128,20 +129,73 @@ body{
 .skills ol li{
     list-style:none;
 }
-#contact{
-    background-color: rgb(53, 51, 42);
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    justify-content: center;
-    height:10vh;
-    color: rgb(233, 145, 145);
-    font-style: italic;
-}
-#contact div{
-    padding-left: 20px;
-    margin: 20px 10px;
-    border-color: chocolate;
-    border-width: 10px;
 
+#contact {
+    background: url(./imgs/back.jpg) no-repeat center center/cover;
+    padding: 50px 20px;
+    text-align: center;
+    color: white;
+}
+
+#contact h2 {
+    color: rgb(218, 132, 101);
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+form {
+    max-width: 500px;
+    margin: 0 auto;
+    background: rgba(65, 62, 62, 0.068);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+input:focus, textarea:focus {
+    outline: 2px solid #111010;
+}
+
+textarea {
+    height: 150px;
+    resize: none;
+    max-length: 1000;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background: #83590a;
+    color: white;
+    font-size: 1.2rem;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #45a049;
+}
+
+p {
+    margin-top: 20px;
+    font-size: 1rem;
+}
+
+p a {
+    color: #FFD700;
+    text-decoration: none;
+}
+
+p a:hover {
+    text-decoration: underline;
 }
